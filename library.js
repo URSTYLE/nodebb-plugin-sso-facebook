@@ -19,7 +19,7 @@
             'route': '/plugins/sso-facebook',
             'icon': 'fa-facebook-square'
         },
-        'url': nconf.get('url').replace('http', 'https')
+        'url': nconf.get('url')
     });
 
     var Facebook = {
